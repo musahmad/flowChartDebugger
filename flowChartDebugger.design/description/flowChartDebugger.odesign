@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" name="flowChartDebugger" version="12.0.0.2017041100">
+  <ownedViewpoints name="steps" modelFileExtension="">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Steps diagram" domainClass="flowChartDebugger::Flowchart" enablePopupBars="true">
+      <metamodel href="file:/C:/Users/Musa/git/PPJ/flowChartDebugger/model/flowChartDebugger.ecore#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="StartNode" domainClass="flowChartDebugger::Start">
+          <conditionnalStyles predicateExpression="aql:not (self.eContainer().current == self)">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" width="30" height="10">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+            </style>
+          </conditionnalStyles>
+          <conditionnalStyles predicateExpression="aql:self.eContainer().current == self">
+            <style xsi:type="style:SquareDescription" borderSizeComputationExpression="5" labelSize="12" labelPosition="node" resizeKind="NSEW" width="30" height="10">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+            </style>
+          </conditionnalStyles>
+        </nodeMappings>
+        <nodeMappings name="StopNode" domainClass="flowChartDebugger::Stop">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="Stop" labelPosition="node" resizeKind="NSEW" width="30" height="10">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="InputOrOutputNode" domainClass="flowChartDebugger::InputOrOutput">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" width="30" height="10">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_orange']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ProcessNode" domainClass="flowChartDebugger::Process">
+          <conditionnalStyles predicateExpression="aql:not (self.eContainer().current == self)">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" width="30" height="10">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </conditionnalStyles>
+          <conditionnalStyles predicateExpression="aql:self.eContainer().current == self">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" width="30" height="10">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_chocolate']"/>
+            </style>
+          </conditionnalStyles>
+        </nodeMappings>
+        <nodeMappings name="DecisionNode" domainClass="flowChartDebugger::Decision">
+          <style xsi:type="style:LozengeNodeDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_purple']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="nextStepEdge" sourceMapping="//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='InputOrOutputNode'] //@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='ProcessNode'] //@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='StartNode']" targetMapping="//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='DecisionNode'] //@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='InputOrOutputNode'] //@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='ProcessNode'] //@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='StopNode']" targetFinderExpression="feature:nextStep">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ifTrueEdge" label="ifTrueEdge" sourceMapping="//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='DecisionNode']" targetMapping="//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='DecisionNode'] //@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='InputOrOutputNode'] //@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='ProcessNode'] //@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='StopNode']" targetFinderExpression="feature:ifTrue">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ifFalseEdge" sourceMapping="//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='DecisionNode']" targetMapping="//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='DecisionNode'] //@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='InputOrOutputNode'] //@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='ProcessNode'] //@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='StopNode']" targetFinderExpression="feature:ifFalse">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="flowChartDebugger.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

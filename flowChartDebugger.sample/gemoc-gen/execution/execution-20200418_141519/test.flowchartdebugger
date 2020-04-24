@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flowChartDebugger:Flowchart xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:flowChartDebugger="http://www.example.org/flowChartDebugger" name="Flow" current="//@step.0" start="//@step.0">
+  <step xsi:type="flowChartDebugger:Start" name="Start" nextStep="//@step.1"/>
+  <step xsi:type="flowChartDebugger:Process" name="Step1" nextStep="//@step.2" previousStep="//@step.0"/>
+  <step xsi:type="flowChartDebugger:Process" name="Step2" nextStep="//@step.3" previousStep="//@step.1"/>
+  <step xsi:type="flowChartDebugger:Stop" name="Stop" previousStep="//@step.2"/>
+</flowChartDebugger:Flowchart>

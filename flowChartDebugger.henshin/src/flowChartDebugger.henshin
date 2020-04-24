@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_jGyJQGOdEeq3OcYkUnTcqw">
+  <imports href="http://www.example.org/flowChartDebugger#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_Yt7I8GOmEeqDU_X_75vl-A" name="startFlowchart">
+    <lhs xmi:id="_YvTpAGOmEeqDU_X_75vl-A" name="Lhs">
+      <nodes xmi:id="_80f5EGOnEeqDU_X_75vl-A" outgoing="_CGvOwGOoEeqDU_X_75vl-A">
+        <type href="http://www.example.org/flowChartDebugger#//Flowchart"/>
+      </nodes>
+      <nodes xmi:id="_9gDXgGOnEeqDU_X_75vl-A" incoming="_CGvOwGOoEeqDU_X_75vl-A">
+        <type href="http://www.example.org/flowChartDebugger#//Step"/>
+      </nodes>
+      <edges xmi:id="_CGvOwGOoEeqDU_X_75vl-A" source="_80f5EGOnEeqDU_X_75vl-A" target="_9gDXgGOnEeqDU_X_75vl-A">
+        <type href="http://www.example.org/flowChartDebugger#//Flowchart/start"/>
+      </edges>
+      <formula xsi:type="henshin:Not" xmi:id="_QNizAHbQEeqVk41Ib_RY1w">
+        <child xsi:type="henshin:NestedCondition" xmi:id="_QNizAXbQEeqVk41Ib_RY1w">
+          <conclusion xmi:id="_QNizAnbQEeqVk41Ib_RY1w">
+            <nodes xmi:id="_QNizA3bQEeqVk41Ib_RY1w" outgoing="_QNizB3bQEeqVk41Ib_RY1w _TW8z8HbQEeqVk41Ib_RY1w">
+              <type href="http://www.example.org/flowChartDebugger#//Flowchart"/>
+            </nodes>
+            <nodes xmi:id="_QNizBXbQEeqVk41Ib_RY1w" incoming="_QNizB3bQEeqVk41Ib_RY1w">
+              <type href="http://www.example.org/flowChartDebugger#//Step"/>
+            </nodes>
+            <nodes xmi:id="_QNfvsHbQEeqVk41Ib_RY1w" incoming="_TW8z8HbQEeqVk41Ib_RY1w">
+              <type href="http://www.example.org/flowChartDebugger#//Step"/>
+            </nodes>
+            <edges xmi:id="_QNizB3bQEeqVk41Ib_RY1w" source="_QNizA3bQEeqVk41Ib_RY1w" target="_QNizBXbQEeqVk41Ib_RY1w">
+              <type href="http://www.example.org/flowChartDebugger#//Flowchart/start"/>
+            </edges>
+            <edges xmi:id="_TW8z8HbQEeqVk41Ib_RY1w" source="_QNizA3bQEeqVk41Ib_RY1w" target="_QNfvsHbQEeqVk41Ib_RY1w">
+              <type href="http://www.example.org/flowChartDebugger#//Flowchart/current"/>
+            </edges>
+          </conclusion>
+          <mappings xmi:id="_QNizBHbQEeqVk41Ib_RY1w" origin="_80f5EGOnEeqDU_X_75vl-A" image="_QNizA3bQEeqVk41Ib_RY1w"/>
+          <mappings xmi:id="_QNizBnbQEeqVk41Ib_RY1w" origin="_9gDXgGOnEeqDU_X_75vl-A" image="_QNizBXbQEeqVk41Ib_RY1w"/>
+        </child>
+      </formula>
+    </lhs>
+    <rhs xmi:id="_YvTpAWOmEeqDU_X_75vl-A" name="Rhs">
+      <nodes xmi:id="_80f5EWOnEeqDU_X_75vl-A" outgoing="_CGvOwWOoEeqDU_X_75vl-A _DLyLQGOoEeqDU_X_75vl-A">
+        <type href="http://www.example.org/flowChartDebugger#//Flowchart"/>
+      </nodes>
+      <nodes xmi:id="_9gDXgWOnEeqDU_X_75vl-A" incoming="_CGvOwWOoEeqDU_X_75vl-A _DLyLQGOoEeqDU_X_75vl-A">
+        <type href="http://www.example.org/flowChartDebugger#//Step"/>
+      </nodes>
+      <edges xmi:id="_CGvOwWOoEeqDU_X_75vl-A" source="_80f5EWOnEeqDU_X_75vl-A" target="_9gDXgWOnEeqDU_X_75vl-A">
+        <type href="http://www.example.org/flowChartDebugger#//Flowchart/start"/>
+      </edges>
+      <edges xmi:id="_DLyLQGOoEeqDU_X_75vl-A" source="_80f5EWOnEeqDU_X_75vl-A" target="_9gDXgWOnEeqDU_X_75vl-A">
+        <type href="http://www.example.org/flowChartDebugger#//Flowchart/current"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_80ggIGOnEeqDU_X_75vl-A" origin="_80f5EGOnEeqDU_X_75vl-A" image="_80f5EWOnEeqDU_X_75vl-A"/>
+    <mappings xmi:id="_9gDXgmOnEeqDU_X_75vl-A" origin="_9gDXgGOnEeqDU_X_75vl-A" image="_9gDXgWOnEeqDU_X_75vl-A"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_QbOoEGOoEeqDU_X_75vl-A" name="moveToNextStep">
+    <lhs xmi:id="_QbRrYGOoEeqDU_X_75vl-A" name="Lhs">
+      <nodes xmi:id="_W9QKoGOoEeqDU_X_75vl-A" outgoing="_gbzvwGOoEeqDU_X_75vl-A">
+        <type href="http://www.example.org/flowChartDebugger#//Flowchart"/>
+      </nodes>
+      <nodes xmi:id="_Y4S7AGOoEeqDU_X_75vl-A" incoming="_gbzvwGOoEeqDU_X_75vl-A" outgoing="_lDMxoGOoEeqDU_X_75vl-A">
+        <type href="http://www.example.org/flowChartDebugger#//Step"/>
+      </nodes>
+      <nodes xmi:id="_hgL94GOoEeqDU_X_75vl-A" incoming="_lDMxoGOoEeqDU_X_75vl-A">
+        <type href="http://www.example.org/flowChartDebugger#//Step"/>
+      </nodes>
+      <edges xmi:id="_gbzvwGOoEeqDU_X_75vl-A" source="_W9QKoGOoEeqDU_X_75vl-A" target="_Y4S7AGOoEeqDU_X_75vl-A">
+        <type href="http://www.example.org/flowChartDebugger#//Flowchart/current"/>
+      </edges>
+      <edges xmi:id="_lDMxoGOoEeqDU_X_75vl-A" source="_Y4S7AGOoEeqDU_X_75vl-A" target="_hgL94GOoEeqDU_X_75vl-A">
+        <type href="http://www.example.org/flowChartDebugger#//Step/nextStep"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_QbSScGOoEeqDU_X_75vl-A" name="Rhs">
+      <nodes xmi:id="_W9QxsGOoEeqDU_X_75vl-A" outgoing="_i3bdoGOoEeqDU_X_75vl-A">
+        <type href="http://www.example.org/flowChartDebugger#//Flowchart"/>
+      </nodes>
+      <nodes xmi:id="_Y4S7AWOoEeqDU_X_75vl-A" outgoing="_lDNYsGOoEeqDU_X_75vl-A">
+        <type href="http://www.example.org/flowChartDebugger#//Step"/>
+      </nodes>
+      <nodes xmi:id="_hgL94WOoEeqDU_X_75vl-A" incoming="_lDNYsGOoEeqDU_X_75vl-A _i3bdoGOoEeqDU_X_75vl-A">
+        <type href="http://www.example.org/flowChartDebugger#//Step"/>
+      </nodes>
+      <edges xmi:id="_lDNYsGOoEeqDU_X_75vl-A" source="_Y4S7AWOoEeqDU_X_75vl-A" target="_hgL94WOoEeqDU_X_75vl-A">
+        <type href="http://www.example.org/flowChartDebugger#//Step/nextStep"/>
+      </edges>
+      <edges xmi:id="_i3bdoGOoEeqDU_X_75vl-A" source="_W9QxsGOoEeqDU_X_75vl-A" target="_hgL94WOoEeqDU_X_75vl-A">
+        <type href="http://www.example.org/flowChartDebugger#//Flowchart/current"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_W9QxsWOoEeqDU_X_75vl-A" origin="_W9QKoGOoEeqDU_X_75vl-A" image="_W9QxsGOoEeqDU_X_75vl-A"/>
+    <mappings xmi:id="_Y4S7AmOoEeqDU_X_75vl-A" origin="_Y4S7AGOoEeqDU_X_75vl-A" image="_Y4S7AWOoEeqDU_X_75vl-A"/>
+    <mappings xmi:id="_hgL94mOoEeqDU_X_75vl-A" origin="_hgL94GOoEeqDU_X_75vl-A" image="_hgL94WOoEeqDU_X_75vl-A"/>
+  </units>
+</henshin:Module>

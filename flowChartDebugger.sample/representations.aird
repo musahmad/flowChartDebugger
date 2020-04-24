@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:flowChartDebugger="http://www.example.org/flowChartDebugger" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_gjqZsHntEeqVHbkYYGJdOA" selectedViews="__dso8HntEeqVHbkYYGJdOA" version="14.1.0.201810161215">
+    <semanticResources>test.flowchartdebugger</semanticResources>
+    <semanticResources>gemoc-gen/execution/execution-20200422_180953/test.flowchartdebugger</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="__dso8HntEeqVHbkYYGJdOA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/flowChartDebugger.design/description/flowChartDebugger.odesign#//@ownedViewpoints[name='steps']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="__psdkXntEeqVHbkYYGJdOA" name="new Steps diagram" repPath="#__oxQgHntEeqVHbkYYGJdOA">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/flowChartDebugger.design/description/flowChartDebugger.odesign#//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']"/>
+        <target xmi:type="flowChartDebugger:Flowchart" href="test.flowchartdebugger#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="__oxQgHntEeqVHbkYYGJdOA" name="new Steps diagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="__pqoYHntEeqVHbkYYGJdOA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="__pqoYXntEeqVHbkYYGJdOA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="__pxWEHntEeqVHbkYYGJdOA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="__pxWEXntEeqVHbkYYGJdOA" type="Sirius" element="__oxQgHntEeqVHbkYYGJdOA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="__p2OkHntEeqVHbkYYGJdOA" type="2001" element="__o9dwHntEeqVHbkYYGJdOA">
+          <children xmi:type="notation:Node" xmi:id="__p5R4HntEeqVHbkYYGJdOA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="__p5R4XntEeqVHbkYYGJdOA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__p-KYHntEeqVHbkYYGJdOA" type="3003" element="__pkhwHntEeqVHbkYYGJdOA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="__p-KYXntEeqVHbkYYGJdOA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__p-KYnntEeqVHbkYYGJdOA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="__p2OkXntEeqVHbkYYGJdOA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__p2OknntEeqVHbkYYGJdOA" y="480" width="300" height="100"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="__p8VMHntEeqVHbkYYGJdOA" type="2001" element="__pmW8HntEeqVHbkYYGJdOA">
+          <children xmi:type="notation:Node" xmi:id="__p88QHntEeqVHbkYYGJdOA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="__p88QXntEeqVHbkYYGJdOA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__p-xcHntEeqVHbkYYGJdOA" type="3003" element="__pmW8XntEeqVHbkYYGJdOA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="__p-xcXntEeqVHbkYYGJdOA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__p-xcnntEeqVHbkYYGJdOA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="__p8VMXntEeqVHbkYYGJdOA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__p8VMnntEeqVHbkYYGJdOA" width="300" height="100"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="__p88QnntEeqVHbkYYGJdOA" type="2001" element="__pm-AHntEeqVHbkYYGJdOA">
+          <children xmi:type="notation:Node" xmi:id="__p88RXntEeqVHbkYYGJdOA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="__p88RnntEeqVHbkYYGJdOA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__p-xc3ntEeqVHbkYYGJdOA" type="3003" element="__pm-AXntEeqVHbkYYGJdOA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="__p-xdHntEeqVHbkYYGJdOA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__p-xdXntEeqVHbkYYGJdOA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="__p88Q3ntEeqVHbkYYGJdOA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__p88RHntEeqVHbkYYGJdOA" y="320" width="300" height="100"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="__p9jUHntEeqVHbkYYGJdOA" type="2001" element="__pm-A3ntEeqVHbkYYGJdOA">
+          <children xmi:type="notation:Node" xmi:id="__p9jU3ntEeqVHbkYYGJdOA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="__p9jVHntEeqVHbkYYGJdOA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__p_YgHntEeqVHbkYYGJdOA" type="3003" element="__pm-BHntEeqVHbkYYGJdOA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="__p_YgXntEeqVHbkYYGJdOA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__p_YgnntEeqVHbkYYGJdOA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="__p9jUXntEeqVHbkYYGJdOA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__p9jUnntEeqVHbkYYGJdOA" y="160" width="300" height="100"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="__pxWEnntEeqVHbkYYGJdOA"/>
+        <edges xmi:type="notation:Edge" xmi:id="__qBNsHntEeqVHbkYYGJdOA" type="4001" element="__ppaQHntEeqVHbkYYGJdOA" source="__p88QnntEeqVHbkYYGJdOA" target="__p9jUHntEeqVHbkYYGJdOA">
+          <children xmi:type="notation:Node" xmi:id="__qB0wHntEeqVHbkYYGJdOA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__qB0wXntEeqVHbkYYGJdOA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__qB0wnntEeqVHbkYYGJdOA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__qB0w3ntEeqVHbkYYGJdOA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__qCb0HntEeqVHbkYYGJdOA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__qCb0XntEeqVHbkYYGJdOA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="__qBNsXntEeqVHbkYYGJdOA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="__qBNsnntEeqVHbkYYGJdOA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__qBNs3ntEeqVHbkYYGJdOA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__qGGMHntEeqVHbkYYGJdOA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__qGGMXntEeqVHbkYYGJdOA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="__qGGMnntEeqVHbkYYGJdOA" type="4001" element="__pqBUHntEeqVHbkYYGJdOA" source="__p9jUHntEeqVHbkYYGJdOA" target="__p8VMHntEeqVHbkYYGJdOA">
+          <children xmi:type="notation:Node" xmi:id="__qGtQHntEeqVHbkYYGJdOA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__qGtQXntEeqVHbkYYGJdOA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__qGtQnntEeqVHbkYYGJdOA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__qGtQ3ntEeqVHbkYYGJdOA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__qGtRHntEeqVHbkYYGJdOA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__qGtRXntEeqVHbkYYGJdOA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="__qGGM3ntEeqVHbkYYGJdOA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="__qGGNHntEeqVHbkYYGJdOA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__qGGNXntEeqVHbkYYGJdOA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__qGtRnntEeqVHbkYYGJdOA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__qGtR3ntEeqVHbkYYGJdOA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="__qGtSHntEeqVHbkYYGJdOA" type="4001" element="__pqBVXntEeqVHbkYYGJdOA" source="__p2OkHntEeqVHbkYYGJdOA" target="__p88QnntEeqVHbkYYGJdOA">
+          <children xmi:type="notation:Node" xmi:id="__qHUUHntEeqVHbkYYGJdOA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__qHUUXntEeqVHbkYYGJdOA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__qHUUnntEeqVHbkYYGJdOA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__qHUU3ntEeqVHbkYYGJdOA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__qHUVHntEeqVHbkYYGJdOA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__qHUVXntEeqVHbkYYGJdOA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="__qGtSXntEeqVHbkYYGJdOA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="__qGtSnntEeqVHbkYYGJdOA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__qGtS3ntEeqVHbkYYGJdOA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__qHUVnntEeqVHbkYYGJdOA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__qHUV3ntEeqVHbkYYGJdOA" id="(0.5,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="__o9dwHntEeqVHbkYYGJdOA" name="Start" outgoingEdges="__pqBVXntEeqVHbkYYGJdOA" width="30" height="10" resizeKind="NSEW">
+      <target xmi:type="flowChartDebugger:Start" href="test.flowchartdebugger#//@step.0"/>
+      <semanticElements xmi:type="flowChartDebugger:Start" href="test.flowchartdebugger#//@step.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="__pkhwHntEeqVHbkYYGJdOA" labelSize="12" labelPosition="node" width="30" height="10" color="138,226,52">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/flowChartDebugger.design/description/flowChartDebugger.odesign#//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='StartNode']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/flowChartDebugger.design/description/flowChartDebugger.odesign#//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='StartNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="__pmW8HntEeqVHbkYYGJdOA" name="Stop" incomingEdges="__pqBUHntEeqVHbkYYGJdOA" width="30" height="10" resizeKind="NSEW">
+      <target xmi:type="flowChartDebugger:Stop" href="test.flowchartdebugger#//@step.3"/>
+      <semanticElements xmi:type="flowChartDebugger:Stop" href="test.flowchartdebugger#//@step.3"/>
+      <ownedStyle xmi:type="diagram:Square" uid="__pmW8XntEeqVHbkYYGJdOA" labelSize="12" labelPosition="node" width="30" height="10" color="246,139,139">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/flowChartDebugger.design/description/flowChartDebugger.odesign#//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='StopNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/flowChartDebugger.design/description/flowChartDebugger.odesign#//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='StopNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="__pm-AHntEeqVHbkYYGJdOA" name="Step1" outgoingEdges="__ppaQHntEeqVHbkYYGJdOA" incomingEdges="__pqBVXntEeqVHbkYYGJdOA" width="30" height="10" resizeKind="NSEW">
+      <target xmi:type="flowChartDebugger:Process" href="test.flowchartdebugger#//@step.1"/>
+      <semanticElements xmi:type="flowChartDebugger:Process" href="test.flowchartdebugger#//@step.1"/>
+      <ownedStyle xmi:type="diagram:Square" uid="__pm-AXntEeqVHbkYYGJdOA" labelSize="12" labelPosition="node" width="30" height="10">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/flowChartDebugger.design/description/flowChartDebugger.odesign#//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='ProcessNode']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/flowChartDebugger.design/description/flowChartDebugger.odesign#//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='ProcessNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="__pm-A3ntEeqVHbkYYGJdOA" name="Step2" outgoingEdges="__pqBUHntEeqVHbkYYGJdOA" incomingEdges="__ppaQHntEeqVHbkYYGJdOA" width="30" height="10" resizeKind="NSEW">
+      <target xmi:type="flowChartDebugger:Process" href="test.flowchartdebugger#//@step.2"/>
+      <semanticElements xmi:type="flowChartDebugger:Process" href="test.flowchartdebugger#//@step.2"/>
+      <ownedStyle xmi:type="diagram:Square" uid="__pm-BHntEeqVHbkYYGJdOA" labelSize="12" labelPosition="node" width="30" height="10">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/flowChartDebugger.design/description/flowChartDebugger.odesign#//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='ProcessNode']/@conditionnalStyles.0/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/flowChartDebugger.design/description/flowChartDebugger.odesign#//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@nodeMappings[name='ProcessNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="__ppaQHntEeqVHbkYYGJdOA" sourceNode="__pm-AHntEeqVHbkYYGJdOA" targetNode="__pm-A3ntEeqVHbkYYGJdOA">
+      <target xmi:type="flowChartDebugger:Process" href="test.flowchartdebugger#//@step.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="__ppaQXntEeqVHbkYYGJdOA" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/flowChartDebugger.design/description/flowChartDebugger.odesign#//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@edgeMappings[name='nextStepEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="__ppaQnntEeqVHbkYYGJdOA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/flowChartDebugger.design/description/flowChartDebugger.odesign#//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@edgeMappings[name='nextStepEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="__pqBUHntEeqVHbkYYGJdOA" sourceNode="__pm-A3ntEeqVHbkYYGJdOA" targetNode="__pmW8HntEeqVHbkYYGJdOA">
+      <target xmi:type="flowChartDebugger:Process" href="test.flowchartdebugger#//@step.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="__pqBUXntEeqVHbkYYGJdOA" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/flowChartDebugger.design/description/flowChartDebugger.odesign#//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@edgeMappings[name='nextStepEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="__pqBUnntEeqVHbkYYGJdOA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/flowChartDebugger.design/description/flowChartDebugger.odesign#//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@edgeMappings[name='nextStepEdge']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="__pqBVXntEeqVHbkYYGJdOA" sourceNode="__o9dwHntEeqVHbkYYGJdOA" targetNode="__pm-AHntEeqVHbkYYGJdOA">
+      <target xmi:type="flowChartDebugger:Start" href="test.flowchartdebugger#//@step.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="__pqBVnntEeqVHbkYYGJdOA" size="2" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/flowChartDebugger.design/description/flowChartDebugger.odesign#//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@edgeMappings[name='nextStepEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="__pqBV3ntEeqVHbkYYGJdOA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/flowChartDebugger.design/description/flowChartDebugger.odesign#//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer/@edgeMappings[name='nextStepEdge']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/flowChartDebugger.design/description/flowChartDebugger.odesign#//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="__o064HntEeqVHbkYYGJdOA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/flowChartDebugger.design/description/flowChartDebugger.odesign#//@ownedViewpoints[name='steps']/@ownedRepresentations[name='Steps%20diagram']/@defaultLayer"/>
+    <target xmi:type="flowChartDebugger:Flowchart" href="test.flowchartdebugger#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

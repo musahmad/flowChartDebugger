@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated flowChartDebugger -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="flowChartDebugger.presentation.FlowChartDebuggerModelWizardID"
+            name="%_UI_FlowChartDebuggerModelWizard_label"
+            class="flowChartDebugger.presentation.FlowChartDebuggerModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/FlowChartDebuggerModelFile.gif">
+         <description>%_UI_FlowChartDebuggerModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated flowChartDebugger -->
+      <editor
+            id="flowChartDebugger.presentation.FlowChartDebuggerEditorID"
+            name="%_UI_FlowChartDebuggerEditor_label"
+            icon="icons/full/obj16/FlowChartDebuggerModelFile.gif"
+            extensions="flowchartdebugger"
+            class="flowChartDebugger.presentation.FlowChartDebuggerEditor"
+            contributorClass="flowChartDebugger.presentation.FlowChartDebuggerActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
